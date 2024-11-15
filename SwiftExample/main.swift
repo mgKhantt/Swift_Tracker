@@ -17,6 +17,11 @@ class Track {
     }
 }
 
+struct Student {
+    let name: String
+    let age: Int
+}
+
 let tracks: [Track] = [
     Track(name: "Mobile", instructor: "Tommy"), //0
     Track(name: "Web", instructor: "Brian"),    //1
